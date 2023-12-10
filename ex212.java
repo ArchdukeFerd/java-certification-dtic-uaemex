@@ -1,4 +1,4 @@
-public class ex211 {
+public class ex212 {
     /*
     This is a code example of variables
     */
@@ -11,5 +11,7 @@ public class ex211 {
         long annualQtySold = 36000l;
         float costPerOz = .49f;
         boolean caffeine = true;
+        
+        System.out.println(bagSize * costPerOz);
     }
 }
