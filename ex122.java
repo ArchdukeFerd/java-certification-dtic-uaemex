@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class ex122 {
+    
+    /** 
+     * @param args
+     * @return 
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println(("Thank you for visiting us, what is your name?"));
