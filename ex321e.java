@@ -1,4 +1,4 @@
-public class ex321d {
+public class ex321e {
     public static void main(String[] args) {
         String [] cocoaBrands = new String[4];
 
@@ -7,12 +7,8 @@ public class ex321d {
         cocoaBrands[2] = null;
         cocoaBrands[3] = "Sugar free";
 
-        for (String cocoa : cocoaBrands){
-            System.out.println(cocoa);
+        for (int c = 0; c < cocoaBrands.length; c++){
+            System.out.println(c + ". " + cocoaBrands[c]);
         }
     }
 }
-
-/*
- * If you need to define the number of loops the loop loops, use a -for-, if the group to loop is already defined, use a -for each- loop
- */
