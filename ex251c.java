@@ -5,5 +5,15 @@ public class ex251c {
         int z = 3;
 
         System.out.println(x + y * z);
+        System.out.println((x + y) * z);
     }
 }
+
+/* Order of operator precedence
+Parenthesis
+Exponentes
+Multiplication
+Division
+Addition
+Substracion
+*/
