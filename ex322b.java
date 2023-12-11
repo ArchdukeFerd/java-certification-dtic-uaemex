@@ -1,4 +1,4 @@
-public class ex322a {
+public class ex322b {
     public static void main(String[] args) {
         String [] cocoaBrands = new String[4];
 
@@ -9,7 +9,7 @@ public class ex322a {
 
         for (int c = 0; c < cocoaBrands.length; c++){
             if (cocoaBrands[c] == null){
-                break;
+                continue;
             }
             System.out.println(cocoaBrands[c]);
         }
