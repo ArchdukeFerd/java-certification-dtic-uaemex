@@ -1,4 +1,4 @@
-public class ex321c {
+public class ex321d {
     public static void main(String[] args) {
         String [] cocoaBrands = new String[4];
 
@@ -7,8 +7,8 @@ public class ex321c {
         cocoaBrands[2] = null;
         cocoaBrands[3] = "Sugar free";
 
-        for (int c = 0; c < cocoaBrands.length; c++){
-            System.out.println(cocoaBrands[c]);
+        for (String cocoa : cocoaBrands){
+            System.out.println(cocoa);
         }
     }
 }
