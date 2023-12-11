@@ -1,6 +1,6 @@
 public class ex311c {
     public static void main(String[] args) {
-        int amount = 1;
+        int amount = 3;
         
         if (amount > 2){
             System.out.println("Enjoy a free coaster with your order.");
