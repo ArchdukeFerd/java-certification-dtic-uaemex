@@ -1,4 +1,4 @@
-public class ex227 {
+public class ex231a {
     public static void main(String[] args) {
         String [] cocoaBrands = new String[4];
 
