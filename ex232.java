@@ -16,5 +16,11 @@ public class ex232 {
         while (cupList.hasNext()){
             System.out.println(cupList.next());
         }
+
+        cups.remove("Maroon");
+        cupList = cups.iterator();
+        while (cupList.hasNext()){
+            System.out.println(cupList.next());
+        }
     }
 }
