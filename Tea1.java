@@ -32,6 +32,7 @@ public class Tea1 {
 
 class GourmetTea1 extends Tea1 {
     public String gourmetBrand;
+    public String gourmetSalePrice;
 
     GourmetTea1 (int teaId, String teaType, String teaName, String gourmetBrand){
         this.teaId = teaId;
