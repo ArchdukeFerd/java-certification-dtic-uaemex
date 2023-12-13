@@ -1,18 +1,18 @@
 public class Tea4 {
-    // objectives 4.2.4 and 4.2.5 
+    // objectives 4.2.4 and 4.2.5 and 4.4.4
 
     protected int teaID;
     public String teaType;
     public String teaName;
     public double teaPrice;
-    private double salePrice = teaPrice * .7;
+    private double salePrice = teaPrice * .75;
 
     Tea4 (int teaID, String teaType, String teaName, double teaPrice) {
         this.teaID = teaID;
         this.teaType = teaType;
         this.teaName = teaName;
         this.teaPrice = teaPrice;
-        this.salePrice = teaPrice * .7;
+        this.salePrice = teaPrice * .75;
     }
     Tea4() {
     }
@@ -49,6 +49,6 @@ class GourmetTea4 extends Tea4 {
         this.teaName = teaName;
         this.gourmetBrand = "Oolong";
         this.teaPrice = 12.99;
-        this.gourmetSalePrice = 11.99;
+        this.gourmetSalePrice = 13.99;
     }
 }
