@@ -15,7 +15,17 @@ public class ex521 {
             System.out.println("I think you may have tried to show an item that doesn't exist.");
         }
         finally {
-            System.out.println("Code complete with failures.");
+            System.out.println("First test complete.");
+        }
+
+        try {
+            printItem(3);
+        }
+        catch(Exception ex) {
+            System.out.println("I think you may have tried to show an item that doesn't exist.");
+        }
+        finally {
+            System.out.println("Code complete.");
         }
     }
     static void printItem(int item) { 
